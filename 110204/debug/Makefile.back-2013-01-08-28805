@@ -1,0 +1,60 @@
+################################################################################
+# Makefile for Project
+################################################################################
+
+-include ../initial.mk
+
+INC:=../hdr
+RES:=release
+OBJ_DIR:=../objs
+SRC:=$(wildcard ../src/*.c)
+
+CFLAGS:=-Wall -Wextra -O3 -g3 -I$(INC)
+CC:=gcc
+
+obj:=$(patsubst %.c,%.o,$(notdir $(SRC)))
+objs:=$(addprefix $(OBJ_DIR)/,$(obj))
+tag:=global idutils ctags cscope
+tags:=$(addprefix tags/,$(tag))
+
+all: edit tags
+
+edit: $(obj)
+	@echo -e "Building taget: \e[1;33m$@\e[0m"
+	@echo -e "Invoking: \e[1;33mGCC C Linker\e[0m"
+	$(CC) -o edit $(objs)
+	@echo -e "Finished building target: \e[1;33m$@\e[0m"
+
+$(obj): %.o: %.c
+	@echo -e "Building file: \e[1;33m$<\e[0m"
+	@echo -e "Invoking: \e[1;33mGCC C Compiler\e[0m"
+	$(CC) -c $(CFLAGS) $< -o $(OBJ_DIR)/$@
+	@echo -e "Finished building: \e[1;33m$<\e[0m"
+
+.PHONY: all docs clean tags
+
+tags: $(tags)
+
+tags/global:
+	-@echo "Building Global Tags DB"
+	-cd .. && gtags $@ && cd -
+
+tags/idutils:
+	-@echo "Building ID Utils Tags DB"
+	-cd .. && mkid -o tags/idutils/ID && cd -
+
+tags/ctags:
+	-@echo "Building CTAGS Tags DB"
+	-[ -f ../tags/ctags/list ] && ctags -L ../tags/ctags/list -o ../tags/ctags/tags
+
+tags/cscope:
+	-@echo "Building Cscope Tags DB"
+	-cd ../tags/cscope/ && cscope -b -q -k && cd -
+
+docs:
+	-@echo "Building Documents with Doxygen"
+	-doxygen
+
+clean:
+	-$(RM) edit $(objs)
+
