@@ -20,15 +20,15 @@ Files List
 <td><a href="pg.php?page=downloadproblem&amp;probid=110102&amp;format=html">Minesweeper                                                                                         </a></font></td>
 </tr>
 <tr>
-<td0">110103</font></td>
+<td>110103</font></td>
 <td><a href="pg.php?page=downloadproblem&amp;probid=110103&amp;format=html">The Trip                                                                                            </a></font></td>
 </tr>
 <tr>
-<td0">110104</font></td>
+<td>110104</font></td>
 <td><a href="pg.php?page=downloadproblem&amp;probid=110104&amp;format=html">LC-Display                                                                                          </a></font></td>
 </tr>
 <tr>
-<td0">110105</font></td>
+<td>110105</font></td>
 <td><a href="pg.php?page=downloadproblem&amp;probid=110105&amp;format=html">Graphical Editor                                                                                    </a></font></td>
 </tr>
 <tr>
@@ -36,7 +36,7 @@ Files List
 <td><a href="pg.php?page=downloadproblem&amp;probid=110106&amp;format=html">Interpreter                                                                                         </a></font></td>
 </tr>
 <tr>
-<td0">110107</font></td>
+<td>110107</font></td>
 <td><a href="pg.php?page=downloadproblem&amp;probid=110107&amp;format=html">Check The Check                                                                                     </a></font></td>
 </tr>
 <tr>
