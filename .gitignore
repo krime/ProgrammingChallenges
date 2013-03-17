@@ -1,5 +1,5 @@
 # no *.a, *.o, *.exe, *.stackdump files
-*.[sao]
+*.[saod]
 *.exe
 *.stackdump
 *~
