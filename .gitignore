@@ -1,4 +1,4 @@
-*.a	# no .a files
+*.{a,o,exe,stackdump}	# no *.a, *.o, *.exe, *.stackdump files
 !lib.a	# but do track lib.a
 /TODO	# only ignore the root TODO file, not subdir/TODO
 build/	# ignore all files in the build/ directory
