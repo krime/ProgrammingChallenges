@@ -8,40 +8,40 @@ Files List
 
 <table width="100%" border="0" cellspacing="1" cellpadding="2">
 <tr bgcolor="#bbbbbb">
-<td>ID</a></b></font></td>
-<td><a href="pg.php?page=studenthome&amp;threshold=0&amp;orderby=20&amp;perpage=8&amp;pagenum=0">Title</a></b></font></td>
+<td>ID</td>
+<td>Title</td>
 </tr>
 <tr>
-<td>110101</font></td>
+<td>110101</td>
 <td><a href="pg.php?page=downloadproblem&amp;probid=110101&amp;format=html">The 3n+1 problem</a></td>
 </tr>
 <tr>
-<td>110102</font></td>
-<td><a href="pg.php?page=downloadproblem&amp;probid=110102&amp;format=html">Minesweeper                                                                                         </a></font></td>
+<td>110102</td>
+<td><a href="pg.php?page=downloadproblem&amp;probid=110102&amp;format=html">Minesweeper</a></td>
 </tr>
 <tr>
-<td>110103</font></td>
-<td><a href="pg.php?page=downloadproblem&amp;probid=110103&amp;format=html">The Trip                                                                                            </a></font></td>
+<td>110103</td>
+<td><a href="pg.php?page=downloadproblem&amp;probid=110103&amp;format=html">The Trip</a></td>
 </tr>
 <tr>
-<td>110104</font></td>
-<td><a href="pg.php?page=downloadproblem&amp;probid=110104&amp;format=html">LC-Display                                                                                          </a></font></td>
+<td>110104</td>
+<td><a href="pg.php?page=downloadproblem&amp;probid=110104&amp;format=html">LC-Display</a></td>
 </tr>
 <tr>
-<td>110105</font></td>
-<td><a href="pg.php?page=downloadproblem&amp;probid=110105&amp;format=html">Graphical Editor                                                                                    </a></font></td>
+<td>110105</td>
+<td><a href="pg.php?page=downloadproblem&amp;probid=110105&amp;format=html">Graphical Editor</a></td>
 </tr>
 <tr>
-<td>110106</font></td>
-<td><a href="pg.php?page=downloadproblem&amp;probid=110106&amp;format=html">Interpreter                                                                                         </a></font></td>
+<td>110106</td>
+<td><a href="pg.php?page=downloadproblem&amp;probid=110106&amp;format=html">Interpreter</a></td>
 </tr>
 <tr>
-<td>110107</font></td>
-<td><a href="pg.php?page=downloadproblem&amp;probid=110107&amp;format=html">Check The Check                                                                                     </a></font></td>
+<td>110107</td>
+<td><a href="pg.php?page=downloadproblem&amp;probid=110107&amp;format=html">Check The Check</a></td>
 </tr>
 <tr>
-<td>110108</font></td>
-<td><a href="pg.php?page=downloadproblem&amp;probid=110108&amp;format=html">Australian Voting                                                                                   </a></font></td>
+<td>110108</td>
+<td><a href="pg.php?page=downloadproblem&amp;probid=110108&amp;format=html">Australian Voting</a></td>
 </tr>
 </table>
 
