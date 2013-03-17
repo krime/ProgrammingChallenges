@@ -1,47 +1,17 @@
-Programming Challenges
-======================
+# Programming Challenges
+***
 
 Files List
 
-* <b>Getting Started</b>
- * Getting Started with the Judge
+## Getting Started
+### Getting Started with the Judge
 
-<table width="100%" border="0" cellspacing="1" cellpadding="2">
-<tr bgcolor="#bbbbbb">
-<td>ID</td>
-<td>Title</td>
-</tr>
-<tr>
-<td>110101</td>
-<td><a href="pg.php?page=downloadproblem&amp;probid=110101&amp;format=html">The 3n+1 problem</a></td>
-</tr>
-<tr>
-<td>110102</td>
-<td><a href="pg.php?page=downloadproblem&amp;probid=110102&amp;format=html">Minesweeper</a></td>
-</tr>
-<tr>
-<td>110103</td>
-<td><a href="pg.php?page=downloadproblem&amp;probid=110103&amp;format=html">The Trip</a></td>
-</tr>
-<tr>
-<td>110104</td>
-<td><a href="pg.php?page=downloadproblem&amp;probid=110104&amp;format=html">LC-Display</a></td>
-</tr>
-<tr>
-<td>110105</td>
-<td><a href="pg.php?page=downloadproblem&amp;probid=110105&amp;format=html">Graphical Editor</a></td>
-</tr>
-<tr>
-<td>110106</td>
-<td><a href="pg.php?page=downloadproblem&amp;probid=110106&amp;format=html">Interpreter</a></td>
-</tr>
-<tr>
-<td>110107</td>
-<td><a href="pg.php?page=downloadproblem&amp;probid=110107&amp;format=html">Check The Check</a></td>
-</tr>
-<tr>
-<td>110108</td>
-<td><a href="pg.php?page=downloadproblem&amp;probid=110108&amp;format=html">Australian Voting</a></td>
-</tr>
-</table>
+1. [The 3n+1 problem](pg.php?page=downloadproblem&amp;probid=110101&amp;format=html "110101")
+1. [Minesweeper](pg.php?page=downloadproblem&amp;probid=110102&amp;format=html "110102")
+1. [The Trip](pg.php?page=downloadproblem&amp;probid=110103&amp;format=html "110103")
+1. [LC-Display](pg.php?page=downloadproblem&amp;probid=110104&amp;format=html "110104")
+1. [Graphical Editor](pg.php?page=downloadproblem&amp;probid=110105&amp;format=html "110105")
+1. [Interpreter](pg.php?page=downloadproblem&amp;probid=110106&amp;format=html "110106")
+1. [Check The Check](pg.php?page=downloadproblem&amp;probid=110107&amp;format=html "110107")
+1. [Australian Voting](pg.php?page=downloadproblem&amp;probid=110108&amp;format=html "110108")
 
