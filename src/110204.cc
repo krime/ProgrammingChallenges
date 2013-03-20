@@ -9,18 +9,21 @@
 
 using namespace std;
 
-void analysis(string cipher, vector<string> dict) {
-  istringstream iss(cipher);
+void decryption(string ciphertext, vector<string> dict) {
+  istringstream iss(ciphertext);
   istream_iterator<string> eos;
   istream_iterator<string> ist(iss);
-  vector<string> words(ist, eos);
-  //while (){}
+  vector<string> cipher(ist, eos);
+  for (vector<string>::iterator it=cipher.begin(); it!=cipher.end(); it++) {
+    cout<<' '<<*it;
+  }
+  cout<<endl;
 }
 
 int main(void) {
-  int n; // n words
+  int n;               // n words    
   vector<string> dict; // raw words
-  string text; // cipher text
+  string input;        // cipher text
   cin>>n;
   ostream_iterator<string> oit(cout, " ");
   for (int i=0;i<n;i++) {
@@ -29,9 +32,9 @@ int main(void) {
     dict.push_back(tmp);
   }
   // copy(dict.begin(), dict.end(), oit);
-  while (getline(cin, text)) {
-    // cout<<text<<endl;
-    analysis(text, dict);
+  while (getline(cin, input)) {
+    if (!input.size()) continue;
+    decryption(input, dict);
   }
   
   return 0;
