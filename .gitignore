@@ -1,21 +1,54 @@
-# no *.a, *.o, *.exe, *.stackdump files
-*.[saod]
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Compiled Assemble files
+*.[sS]
+
+# Compiled Executable files
 *.exe
+
+# Core Dump files
 *.stackdump
+
+# Backup files
 *~
-# but do track lib.a
-!lib.a
-# only ignore the root TODO file, not subdir/TODO
+
+# Dependency files
+*.d
+
+# Leave Productive Compiled Static library lib$PROJECT.a alone
+# !lib$PROJECT.a
+
+# Only ignore the root TODO file, not subdir/TODO
 /TODO
-# ignore all files in the build/ directory
+
+# Ignore all files in the build/, debug/, release/ directories
 build/
-# Temporary Files
+debug/
+release/
+
+# Temporary directory
 tmp/
-# Dependency Files
+
+# Dependency directory
 dep/
-# Tags Files
+
+# Tags directory
 tag/
-# Object Files
+
+# Object directory
 obj/
-# ignore doc/notes.txt, but not doc/server/arch.txt
+
+# Ignore doc/notes.txt, but not doc/server/arch.txt
 doc/*.txt
